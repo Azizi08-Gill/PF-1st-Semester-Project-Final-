@@ -115,7 +115,7 @@ void search_record(int numCustomer)
         cout << "Enter Service ID to search : ";
         cin >> searchID;
 
-        // Search for the record with the given email
+       
 
         for (int i = 0; i < numCustomer; ++i)
         {
@@ -146,9 +146,9 @@ void add_record(Customer *customer, int &numCustomer)
 {
     if (numCustomer < Max_Customer)
     {
-        // Taking input from the user
+         
         cout << "\nFor service ID " << servicesP[numServices].serviceID << endl;
-        // the uper line picks Service ID from project 2 file
+       
         cout << "Service Fee ";
         cin >> customerArray[numCustomer].serviceFee;
 
